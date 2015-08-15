@@ -1,4 +1,4 @@
-package com.swiatowski.dropwizard.config;
+package com.swiatowski.blog;
 
 import com.yammer.dropwizard.config.Configuration;
 
