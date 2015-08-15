@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c97fe2b-c9fb-49b0-8746-996301c8df95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/BlogResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/BlogResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/BlogService.java" afterPath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/BlogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/IndexResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/IndexResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/MongoHealthCheck.java" afterPath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/MongoHealthCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/representations/Blog.java" afterPath="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/representations/Blog.java" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BlogService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlogService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/BlogService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65770173">
+            <state vertical-scroll-proportion="0.0">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,13 +76,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogResource.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlogResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/BlogResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33251834">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#699#700#0" expanded="true" />
                 <element signature="e#738#739#0" expanded="true" />
               </folding>
@@ -97,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/IndexResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#601#602#0" expanded="true" />
@@ -111,10 +107,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/representations/Blog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,7 +144,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/dropwizard/config/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/dropwizard/config/BlogConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/representations/Blog.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/BlogConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/MongoManaged.java" />
@@ -155,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/BlogResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/IndexResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/BlogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/swiatowski/blog/representations/Blog.java" />
       </list>
     </option>
   </component>
@@ -664,12 +661,12 @@
       <option name="number" value="Default" />
       <updated>1439653976083</updated>
       <workItem from="1439653980387" duration="1692000" />
-      <workItem from="1439656616227" duration="2389000" />
+      <workItem from="1439656616227" duration="3270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4081000" />
+    <option name="totallyTimeSpent" value="4962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
@@ -756,7 +753,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#699#700#0" expanded="true" />
             <element signature="e#738#739#0" expanded="true" />
           </folding>
@@ -781,7 +777,8 @@
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -794,17 +791,6 @@
       </provider>
       <provider editor-type-id="MultiMarkdownPreviewEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/representations/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -847,14 +833,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/BlogResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/BlogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/representations/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -862,7 +858,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/IndexResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#601#602#0" expanded="true" />
@@ -871,12 +867,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/BlogService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/swiatowski/blog/resources/BlogResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65770173">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33251834">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
           </folding>
         </state>
       </provider>

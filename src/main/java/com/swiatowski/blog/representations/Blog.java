@@ -1,5 +1,6 @@
 package com.swiatowski.blog.representations;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.hibernate.validator.constraints.NotBlank;
 import org.hibernate.validator.constraints.URL;
 
@@ -9,7 +10,9 @@ import java.util.UUID;
 /**
  * Created by Piotrek on 8/15/2015.
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Blog {
+
     private String id = UUID.randomUUID().toString();
 
     @NotBlank
