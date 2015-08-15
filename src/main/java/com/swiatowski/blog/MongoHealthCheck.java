@@ -14,7 +14,7 @@ public class MongoHealthCheck extends HealthCheck {
         super("MongoDBHealthCheck");
         this.mongo = mongo;
     }
-    
+
     @Override
     protected Result check() throws Exception {
         mongo.getDatabaseNames();
